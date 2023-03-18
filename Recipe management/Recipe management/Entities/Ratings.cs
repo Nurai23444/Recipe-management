@@ -4,6 +4,7 @@
     {
         public int Id { get; set; }
         public ReceipeTag ReceipeTag { get; set; }
+        public int ReceipeTagId { get; set; }
         public int Raiting { get; set; }
 
     }
